@@ -19,8 +19,14 @@
   },
   "homepage": "https://github.com/sanasham/shortener-url#readme",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "i": "^0.3.7",
+    "mongodb": "^5.7.0",
     "mongoose": "^7.4.2",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "npm": "^9.8.1",
+    "shortid": "^2.2.16"
   }
 }
