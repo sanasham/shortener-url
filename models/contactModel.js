@@ -9,9 +9,9 @@ const contactSchema = mongoose.Schema(
       type: String,
       required: [true, 'please add the contact email address'],
     },
-    password: {
+    phone: {
       type: String,
-      required: [true, 'please add the contact password'],
+      required: [true, 'please add the contact phone number'],
     },
   },
   {
