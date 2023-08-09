@@ -4,9 +4,9 @@ async function handleGenerateShortUrl(req, res) {
   try {
     const bodyurl = req.body;
     console.log(bodyurl.url);
-    // if (!body.url) return res.status(400).json({ error: 'url is required' });
+
     const shortIdValue = shortId();
-    // let xyx = { value: 123 };
+
     let customObj = {
       shortId: shortIdValue,
       redirectUrl: bodyurl.url,
